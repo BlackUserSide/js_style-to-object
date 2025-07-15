@@ -15,7 +15,7 @@ function convertToObject(sourceString) {
     if (tmp.length < 2) {
       return;
     }
-    obj[tmp[0].trimEnd()] = tmp[1].trim();
+    obj[tmp[0].trim()] = tmp[1].trim();
   });
 
   return obj;
